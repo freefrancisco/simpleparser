@@ -1,6 +1,6 @@
 {- Example to show why Haskell is good for parsing
 with a simple parser for expressions 
-of the form "((1 * (2 - 3) + (4 + 5))" 
+of the form ((1 * (2 - 3)) + (4 + 5)) 
 -}
 module SimpleParser where
 
