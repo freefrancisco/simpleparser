@@ -1,0 +1,16 @@
+name: simpleparser
+author: "Francisco Gutierrez"
+maintainer: "freefrancisco@gmail.com"
+copyright: "2020 Francisco Gutierrez"
+dependencies: 
+- base
+- trifecta
+
+library:
+  source-dirs: src
+executables: 
+  simpleparser:
+    main: Main.hs
+    source-dirs: app
+    dependencies:
+    - simpleparser
